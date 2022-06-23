@@ -19,6 +19,23 @@ body,html{
   scroll-behavior: smooth;
 }
 
+.content-div{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+
+}
+.content-div:hover {
+  background-image: linear-gradient(
+      to right,
+      #5286b3,
+      #1977ca   
+  )!important;
+  transition: all ease-in;
+  transition-duration: 0.5s;
+
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

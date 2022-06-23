@@ -22,6 +22,12 @@ const Nav = () => {
           className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
         >
           About
+          </a>
+          <a
+          href="#skills"
+          className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
+        >
+          Skills
         </a>
         <a
           href="#projects"

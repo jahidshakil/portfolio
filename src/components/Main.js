@@ -4,13 +4,14 @@ import profile from '../images/profile.png'
 const Main = () => {
   return (
       <div>
-          <div className='  w-[80%] ' >
+          <div className='  w-[90%] ' >
           <section
-            className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 my-24"
+            className="max-w-[90%] grid grid-cols-1 md:grid-cols-2 gap-2 my-10 h-full text-center py-8"
             id="about"
           >
             <div className="w-full h-420 flex text-center items-center justify-center ml-24 sm: mr-10">
-              <div className="w-275 h-340 relative bg-amber-100 rounded-md">
+            
+              <div className="w-275 h-340 relative bg-[#355C7D] rounded-md">
                 <img
                   src={profile}
                   alt=""
@@ -30,7 +31,8 @@ const Main = () => {
                 vero nobis assumenda commodi magni.
               </p>
 
-              <button class=" border-none w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-orange-400 to-amber-200 group-hover:from-orange-400 group-hover:to-amber-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-orange-800 hover:shadow-lg hover:shadow-orange-500/20 hover:dark:shadow-lg hover:dark:shadow-orange-800/80">
+              
+              <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-[#355C7D] group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
                 <span class="w-full md:w-auto relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
                   Download
                 </span>
@@ -39,11 +41,7 @@ const Main = () => {
         </section>
 
 
-        <section>
-          <div className='' id='#'>
-
-          </div>
-        </section>
+        
          
     </div>
     </div>
