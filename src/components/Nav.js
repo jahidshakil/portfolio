@@ -1,7 +1,19 @@
 import React from 'react'
 import { IoIosMenu } from 'react-icons/io'
 import { useState } from 'react';
-import {  motion } from "framer-motion";
+import { motion } from "framer-motion";
+import { HiOutlineMail } from 'react-icons/hi';
+import {
+  FaBars,
+  FaTimes,
+  FaGithub,
+  FaLinkedin,
+  FaFacebook,
+  FaInstagram,
+  FaLinkedinIn,
+} from 'react-icons/fa';
+
+
 
 const Nav = () => {
     const [isActive, setisActive] = useState(false);
@@ -36,7 +48,7 @@ const Nav = () => {
           Projects
         </a>
         <a
-          href="#contacts"
+          href="#contact"
           className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer duration-100 ease-in"
         >
           Contact
@@ -89,7 +101,44 @@ const Nav = () => {
           </a>
           
         </motion.div>
-      )}
+        )}
+        <div className='hidden lg:flex fixed flex-col top-[35%] left-1'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a
+              className='flex justify-evenly items-center w-full text-gray-300'
+              href='https://www.linkedin.com/in/jahid-shakil-39682417b/'
+            >
+              Linkedin <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a
+              className='flex justify-evenly items-center w-full text-gray-300'
+              href='https://github.com/jahidshakil'
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ee2b42]'>
+            <a
+              className='flex justify-evenly items-center w-full text-gray-300'
+              href='https://www.instagram.com/_aaladdinn/'
+            >
+              Instagram <FaInstagram size={30} />
+            </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a
+              className='flex justify-evenly items-center w-full text-gray-300'
+              href='https://www.facebook.com/jahidlaladin'
+            >
+              Facebook <FaFacebook size={30} />
+            </a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
   </nav>
   )

@@ -21,14 +21,7 @@ const Main = () => {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ml-16 ">
               <p className="text-lg text-textBase text-center  ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Sapiente dicta recusandae commodi praesentium officia, aliquam
-                cumque voluptatem dolor enim ducimus id maiores consequatur
-                dolorem! Architecto aperiam corrupti nostrum eum similique!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Veritatis saepe dolor illo. Tenetur labore impedit nihil natus
-                explicabo perspiciatis nisi autem aut numquam dolorum, voluptas
-                vero nobis assumenda commodi magni.
+                Hi, Jahid here. I am a fresh graduate software developer. I am looking forward to build my career in software development and keen to learn new technology. Currently I am working with frontend(React Js) development but  interested to learn backend (MongoDb, Nodejs)technology as I go.  
               </p>
 
               
